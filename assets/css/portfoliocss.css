@@ -1,0 +1,143 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../images/spikes.png");
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    position: fixed;
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 220px;
+    height: 60px;
+    float: left;  
+    text-align: center;
+    margin-left: 20%;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+    border-left: 1px solid #777777;
+}
+
+li:last-child {
+    border-left: none;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #777777;
+    color: #ffffff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.article {
+    position: relative;
+    top: 90px;
+    border-color: #dddddd;
+    width: 960px;
+    height: 820px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    padding: 20px;
+    background-color: #ffffff;
+    z-index: -1;
+}
+
+#title {
+    color: #4aaaa5;
+    text-align: left;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: gray;
+}
+
+.images {
+    width: 260px;
+    height: 200px;
+}
+
+.titles {
+    background-color: #4aaaa5;
+    width: 260px;
+    text-align: center;
+    padding: 15px;
+}
+
+.portfoliocard {
+    float: left;
+    margin: 5px 35px 0px 35px;
+}
+
+    .portfoliocard img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .portfoliocard h2 {
+        padding: 8px 0 8px 0;
+        margin: 0;
+        position: relative;
+        top: -55px;
+    }
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body, .header, .footer, .article {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body, .header, .footer, .article {
+        width: auto;
+    }
+}
