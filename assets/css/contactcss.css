@@ -109,13 +109,13 @@ h2 {
 }
 
 @media screen and (max-width: 980px), (min-width:980px) {
-    body, .article {
+    body, .form {
         width: auto;
     }
 }
 
 @media screen and (max-width: 768px) {
-    body, .article {
+    body, .form {
         width: auto;
         margin: auto;
     }
@@ -129,7 +129,7 @@ h2 {
 @media screen and (max-width: 640px) {
    
    
-    body, .article {
+    body, .form {
         width: auto;
         margin: auto;
         height: 1280px;
