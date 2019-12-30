@@ -130,14 +130,3 @@ hr {
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-    body, .header, .footer, .article {
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 480px){
-    body, .header, .footer, .article {
-        width: auto;
-    }
-}
