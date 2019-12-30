@@ -123,6 +123,7 @@ h2 {
    
     body, .article {
         width: auto;
+        margin: auto;
     }
   
     #profilepic {
@@ -139,5 +140,9 @@ h2 {
     ul {
         width: 100%;
         margin: 0 auto;
+    }
+    li {
+        position: relative;
+        right: 20%;
     }
 }
