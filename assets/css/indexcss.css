@@ -124,6 +124,7 @@ h2 {
     body, .article {
         width: auto;
         margin: 10px;
+        padding: 10px;
     }
   
     #profilepic {
@@ -137,6 +138,6 @@ h2 {
         float: none;
         width: auto;
         margin: 0;
-            
+
     }
 }
