@@ -108,13 +108,19 @@ h2 {
 
 @media screen and (max-width: 980px) {
     body, .article {
-        width: 100%;
+     
     }
 }
 
 @media screen and (max-width: 768px) {
     body, .article {
-        width: 100%;
+        width: auto;
+        margin: auto;
+    }
+
+    .header, h1 {
+        position: static;
+        margin: 0;
     }
 }
 
