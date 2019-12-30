@@ -135,6 +135,8 @@ h2 {
     .header, h1 {
         position: static;
         float: none;
-
+        width: auto;
+        margin: 0;
+            
     }
 }
