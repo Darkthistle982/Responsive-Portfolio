@@ -130,3 +130,49 @@ hr {
     width: 100%;
 }
 
+@media screen and (max-width: 980px), (min-width:980px) {
+    body, .article {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body, .article {
+        width: auto;
+        margin: auto;
+    }
+
+    .header, h1 {
+        position: static;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+   
+   
+    body, .article {
+        width: auto;
+        margin: auto;
+    }
+  
+    #profilepic {
+        float: none;
+        width: auto;
+    }
+
+    .header, h1 {
+        position: static;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+    ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    li {
+        position: relative;
+        right: 20%;
+    }
+}
