@@ -157,11 +157,6 @@ hr {
         height: 1280px;
     }
   
-    #profilepic {
-        float: none;
-        width: auto;
-    }
-
     .header, h1 {
         position: static;
         float: none;
