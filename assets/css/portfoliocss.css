@@ -154,6 +154,7 @@ hr {
     body, .article {
         width: auto;
         margin: auto;
+        height: 1280px;
     }
   
     #profilepic {
